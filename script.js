@@ -14,7 +14,7 @@ function jogo() {
         const near = 0.1;
         const far = 200;
         const camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
-        camera.position.z = 30;
+        camera.position.z = 35;
 
         const scene = new THREE.Scene();
         scene.background = new THREE.Color('white');
